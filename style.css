@@ -31,7 +31,32 @@ display: flex;
 #page1 h1 svg{
     height: 8vw;
     width: 8vw;
-    background-color: green;
+    background-color: #0ba34E;
+    border-radius: 50%;
+    width: 6vw;
+}
+#page1-something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1-something h4{
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #a5a5a5;
+}
+#page1-something h4:nth-last-child(2){
+border: none;
+padding: 2px;
+}
+
+#page1 p{
+    text-align: center;
+    margin-top: 3vh;
+font-weight: 400;
 }
 #page2{
 height: 100vh;
