@@ -17,16 +17,21 @@ html,body{
 height: 100vh;
 width: 100%;
 background-color: #111;
+display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 #page1 h1{
     font-size: 8vw;
     text-transform: uppercase;
     font-weight: 900;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    line-height: 9vw;
-    justify-content: center;
+    line-height: 8.5vw;
+}
+#page1 h1 svg{
+    height: 8vw;
+    width: 8vw;
+    background-color: green;
 }
 #page2{
 height: 100vh;
