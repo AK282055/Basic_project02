@@ -11,10 +11,11 @@ html,body{
     width: 100%;
 }
 nav{
+
     height: 12vh;
     position: fixed;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
@@ -37,6 +38,8 @@ nav h1{
 }
 .nav-part2 h5{
     margin-bottom: 1vw;
+    display: none;
+    overflow: hidden;
     opacity: 0;
 }
 .nav-part2 h5 span{
@@ -58,7 +61,6 @@ nav button{
 #nav-bottom{
     height: 0vh;
     width: 79%;
-    height: 21vh;
     position: absolute;
     top: 100%;
     background-color: #111;
