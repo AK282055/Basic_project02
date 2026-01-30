@@ -11,6 +11,7 @@ html,body{
     width: 100%;
 }
 nav{
+    height: 12vh;
     position: fixed;
     display: flex;
     align-items: center;
@@ -18,48 +19,56 @@ nav{
     padding: 2vw 10.4vw;
     justify-content: space-between;
 }
+nav h1{
+    font-size: 1.6vw;
+}
 .nav-part2{
     display: flex;
     gap: 2vw;
+    align-items: flex-start;
+    padding: 1vh 0;
+    position: relative;
 }
 .nav-part2 h4{
-    font-size: 0.76vw;
+    font-size: 0.73vw;
     text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: 2.6vw;
+}
+.nav-part2 h5{
+    margin-bottom: 1vw;
+    opacity: 0;
+}
+.nav-part2 h5 span{
+    font-size: 0.77vw;
+    font-weight: 400;
+    display: inline-block;
+}
+nav button{
+    background-color: #0ba34E;
+    border-radius: 50px;
+    display: flex;
+    padding: 14px 20px;
+    align-items: center;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85vw;
 }
 nav:hover #nav-bottom{
 height: 100%;
 bottom: -100%;
 }
 #nav-bottom{
-    height: 0%;
-    position: absolute;
+    height: 0;
     width: 79%;
-    bottom: 0%;
-    transition: all ease 0.65s;
-    display: flex;
-    align-self: flex-start;
-    justify-content:center ;
-     border-bottom: 2px solid #dadada;
-    padding: 2vw 15vw;
-    padding-left: 18.2vw ;
-padding-top: 6vw;
-}
-.bottom-div{
-    margin-top: 2vw;
+    height: 20vh;
     position: absolute;
-    top: 0;
+    top: 100%;
+    z-index: 9;
+    border: 1px solid #fff;
 }
-.bottom-div h5{
- margin-bottom: 0.4vw; 
- overflow: hidden;
-}
-.bottom-div h5 span{
-    font-size: 0.75vw;
-    font-weight: 500;
-display: inline-block;
 
-}
 #page1{
     height: 100vh;
     width: 100%;
