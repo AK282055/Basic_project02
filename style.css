@@ -55,16 +55,13 @@ nav button{
     text-transform: uppercase;
     font-size: 0.85vw;
 }
-nav:hover #nav-bottom{
-height: 100%;
-bottom: -100%;
-}
 #nav-bottom{
-    height: 0;
+    height: 0vh;
     width: 79%;
-    height: 20vh;
+    height: 21vh;
     position: absolute;
     top: 100%;
+    background-color: #111;
     z-index: 9;
     border: 1px solid #fff;
 }
