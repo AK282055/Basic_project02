@@ -24,7 +24,7 @@ nav.addEventListener("mouseleave",function(){
             amount:0.6
         }
     })
-    tl.to("nav-part2 h5",{
+    tl.to(".nav-part2 h5",{
         display:"none",
         duration:0.1
     })
