@@ -120,14 +120,25 @@ background-color: red;
 margin-top: 10vh;
 position: absolute;
 bottom: 3%;
+width: 44%;
+padding: 1.2vw;
+overflow: hidden;
+white-space: nowrap;
 }
 #moving-div .move{
-    display: flex;
-    align-items: center;
-    gap: 2vw;
+    display: inline-block;
 }
 #moving-div .move img{
     height: 1vw;
+    margin: 0 1vw;
+}
+@keyframes mobe {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
 #page1 p{
     text-align: center;
