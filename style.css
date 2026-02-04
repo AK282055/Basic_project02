@@ -11,7 +11,7 @@ html,body{
     width: 100%;
 }
 nav{
-
+background-color: #111;
     height: 12vh;
     position: fixed;
     display: flex;
@@ -19,12 +19,14 @@ nav{
     width: 100%;
     padding: 2vw 10.4vw;
     justify-content: space-between;
+    z-index: 10;
 }
 nav h1{
     font-size: 1.6vw;
 }
 .nav-part2{
     display: flex;
+    z-index: 10;
     gap: 2vw;
     align-items: flex-start;
     padding: 1vh 0;
@@ -40,7 +42,7 @@ nav h1{
     margin-bottom: 1vw;
     display: none;
     overflow: hidden;
-    opacity: 0;
+
 }
 .nav-part2 h5 span{
     font-size: 0.77vw;
@@ -91,6 +93,11 @@ nav button{
     border-radius: 50%;
 
 }
+#page1 p{
+    text-align: center;
+    font-weight: 400;
+    
+}
 #page1-something{
     display: flex;
     align-items: center;
@@ -108,7 +115,20 @@ nav button{
 border: none;
 padding: 2px;
 }
-
+#moving-div{
+background-color: red;
+margin-top: 10vh;
+position: absolute;
+bottom: 3%;
+}
+#moving-div .move{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#moving-div .move img{
+    height: 1vw;
+}
 #page1 p{
     text-align: center;
     margin-top: 3vh;
