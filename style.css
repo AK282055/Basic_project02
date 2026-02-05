@@ -116,7 +116,6 @@ border: none;
 padding: 2px;
 }
 #moving-div{
-background-color: red;
 margin-top: 10vh;
 position: absolute;
 bottom: 3%;
@@ -127,6 +126,10 @@ white-space: nowrap;
 }
 #moving-div .move{
     display: inline-block;
+    animation-name: mobe;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 #moving-div .move img{
     height: 1vw;
