@@ -34,3 +34,15 @@ nav.addEventListener("mouseleave",function(){
     })
 })
 }
+
+ var rightElems =document.querySelectorAll(".right-elem")
+ console.log(rightElems)
+
+ rightElems.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){
+        console.log(elem.childNodes[1])
+    })
+     elem.addEventListener("mouseleave",function(){
+        console.log("hello")
+    })
+ })
