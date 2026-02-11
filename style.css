@@ -218,4 +218,5 @@ border-bottom: 1px solid #333;
     object-fit: cover;
     opacity: 0;
     position: absolute;
+    scale: 0;
 }
