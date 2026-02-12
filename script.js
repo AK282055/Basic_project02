@@ -60,3 +60,14 @@ elem.addEventListener("mousemove",function(dets){
     })
 })
 
+var page3Center = document.querySelector(".page-center")
+var video = document.querySelector("#page3 video")
+
+page3Center.addEventListener("click",function(){
+    video.play()
+    gsap.to(video),{
+        transform:"scaleX(1) scaleY(1)",
+        opacity:1,
+        borderRadius:0
+    }
+})
