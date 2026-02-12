@@ -233,10 +233,22 @@ border-bottom: 1px solid #333;
 }
 
 .page3-center{
-background-color: #0ba34E;
+background-color:red;
 
 }
-
+.page3-center .icon{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.3vw;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 2vw;}
+.page3-center .icon i{
+    color: #000;
+    font-size: 3vw;
+}
 #page3 video {
     height: 100%;
     width: 100%;
@@ -246,4 +258,10 @@ background-color: #0ba34E;
     opacity: 0;
     border-radius: 30px;
     z-index: 999999;
+}
+
+.page3-center h5{
+    font-size: 0.8vw;
+    font-size: 1vw;
+    padding: 10px 20px;
 }
