@@ -372,3 +372,34 @@ nav button svg {
   padding-top: 3vh;
   border-top: 2px solid #000;
 }
+.sec-left h2 {
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10vh;
+}
+.sec-left span i {
+  font-size: 1.4vw;
+  color: #000;
+}
+
+.sec-left p {
+  color: #000;
+  font-size: 1.2vw;
+  margin-top: 5vh;
+  width: 90%;
+}
+
+.sec-right {
+  height: 100%;
+  width: 70%;
+  position: relative;
+}
+
+.sec-right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
